@@ -1,0 +1,20 @@
+.navbar{
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   padding: 40px 50px;
+   height: 0px;
+   box-shadow: 0 10px 5px -2px black;
+   background: white;
+   margin-bottom: 1px;
+}
+.logo{
+   width: 200px;
+   height: 80px;
+   background: white;
+}
+.profile{
+   height: 80px;
+   width: 75px;
+   background: white;
+}

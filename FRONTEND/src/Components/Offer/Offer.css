@@ -1,0 +1,157 @@
+.offer{
+   padding: 0px 140px;
+   display: flex;
+   margin-top: 1000vh;
+   height: 60vh;
+   width: 80%;
+   background: linear-gradient(180deg,#fde1ff,#e1ffea22 60%);
+   margin: auto;
+   gap: 300px;
+   align-items: center;
+}
+.offer-left{
+   display: flex;
+   flex-direction: column;
+   flex: 1;
+}
+.offer-left h1{
+   font-size: 70px;
+   color: #171717;
+}
+.offer-left p{
+   font-size: 22px;
+   color: #171717;
+   font-weight: 600;
+   margin-top: 2vh;
+}
+.offer-btn{
+   margin: 30px;
+   font-size: 22px;
+   background: #FF4141;
+   color: white;
+   width: 280px;
+   height: 70px;
+   border-radius: 35px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+.you{
+   min-width: 600px;
+}
+.offer-btn button{
+   font-size: 22px;
+   background: #FF4141;
+   color: white;
+   outline: 0;
+   border: 0;
+   font-weight: 600;
+   cursor: pointer;
+   
+}
+.offer-right{
+   flex: 1;
+}
+@media (max-width:1280px) {
+   .offer{
+      padding: 0 80px;
+   }
+   .offer-left h1{
+      font-size: 40px;
+   }
+   .offer-left p{
+      font-size: 18px;
+   }
+   .offer-btn{
+      width: 220px;
+      height: 50px;
+   }
+   .offer-btn button{
+      font-size: 18px;
+   }
+   .offer-right img{
+      width: 300px;
+      height: 440px;
+   }
+   .offer-right img{
+      margin-left: -50vh;
+   }
+}
+@media (max-width:1020px) {
+   .offer-left h1{
+      font-size: 30px;
+   }
+   .offer-left p{
+      font-size: 16px;
+   }
+   .offer-btn{
+      width: 160px;
+      height: 40px;
+   }
+   .offer-btn button{
+      font-size: 16px;
+   }
+   .offer-right img{
+      width: 200px;
+      height: 292px;
+   }
+   .offer-right img{
+      margin-left: -50vh;
+   }
+   .offer{
+      height: 40vh;
+   }
+}
+@media (max-width:1020px) {
+   .offer-left h1{
+      font-size: 22px;
+   }
+   .offer-left p{
+      font-size: 13px;
+   }
+   .offer-btn{
+      width: 140px;
+      height: 30px;
+   }
+   .offer-btn button{
+      font-size: 14px;
+   }
+   .offer-right img{
+      width: 180px;
+      height: 260px;
+   }
+   .offer-right img{
+      margin-left: -60vh;
+   }
+}
+@media (max-width:500px) {
+   .offer-left h1{
+      font-size: 16px;
+   }
+   .offer-left p{
+      font-size: 10px;
+   }
+   .offer-btn{
+      width: 120px;
+      height: 25px;
+      margin-left: -1vh;
+   }
+   .offer-btn button{
+      font-size: 12px;
+   }
+   .offer-right img{
+      width: 120px;
+      height: 175px;
+   }
+   .offer-right img{
+      margin-left: -70vh;
+   }
+   .offer-left{
+      display: flex;
+      flex-direction: column;
+      margin-left: -60px;
+   }
+   .offer{
+      height: 30vh;
+   }
+}

@@ -1,0 +1,131 @@
+.cart{
+   margin: 100px 170px;
+}
+.cart-top{
+   display: grid;
+   grid-template-columns: 0.5fr 2fr 1fr 1fr 1fr 1fr;
+   align-items: center;
+}
+.cart-top p{
+   font-size: 18px;
+   color: #454545;
+   font-weight: 600;
+}
+.cart hr{
+   background: #E2E2E2;
+   height: 3px;
+   margin-top: 20px;
+}
+.cart-main{
+   display: flex;
+   margin-top: 100px;
+   gap: 200px;
+}
+.main-left{
+   flex: 0.8;
+}
+.main-left h1{
+   font-size: 32px;
+   color: #000000;
+   margin-bottom: 60px;
+}
+.main-left hr{
+   margin-bottom: 15px;
+}
+.left-btn{
+   width: 260px;
+   height: 58px;
+   background: red;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   margin-top: 50px;
+}
+.left-btn button{
+   border: none;
+   outline: none;
+   font-size: 16px;
+   color: white;
+   background: red;
+   font-weight: 600;
+   padding-left: 25px;
+}
+.main-left div{
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+}
+.main-right p{
+   font-size: 16px;
+   color: #555555;
+   font-weight: 600;
+}
+.right-input{
+   width: 560px;
+   height: 60px;
+   background: #EAEAEA;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   margin-top: 15px;
+}
+.right-input input{
+   border: none;
+   outline: none;
+   font-size: 16px;
+   background: transparent;
+   padding-left: 30px;
+}
+.right-input button{
+   height: 60px;
+   width: 200px;
+   font-size: 16px;
+   background: black;
+   color: white;
+}
+.images{
+   width: 50px;
+   height: 60px;
+}
+.cart-format p{
+   font-size: 17px;
+   color: #454545;
+   font-weight: 600;
+}
+.cartitems-quantity{
+   border: 2px solid #ebebeb;
+   width: 64px;
+   height: 50px;
+   background: #fff;
+}
+.remove{
+   height: 15px;
+   width: 15px;
+}
+.cart-format{
+   display: grid;
+   grid-template-columns: 0.5fr 2fr 1fr 1fr 1fr 0.9fr;
+   align-items: center;
+   margin-top: 10px;
+}
+@media (max-width:1280px) {
+   .cart-main{
+      display: flex;
+      flex-direction: column;
+   }
+   .left-btn{
+      width: 200px;
+      height: 45;
+   }
+   .left-btn button{
+      font-size: 13px;
+   }
+   .cart-top p{
+      font-size: 16px;
+   }
+}
+@media (max-width:1080px) {
+   .cart {
+      margin: 100px 50px;
+   }
+}

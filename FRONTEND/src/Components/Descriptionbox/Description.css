@@ -1,0 +1,76 @@
+.desc{
+   margin: 90px 170px;
+}
+.desc-btn{
+   display: flex;
+   flex-direction: column;
+}
+.descc{
+   display: flex;
+}
+.desc-btn button{
+   outline: none;
+   border: none;
+   width: 173px;
+   height: 72px;
+   border: 1px solid #d0d0d0;
+   background: white;
+   font-size: 16px;
+   font-weight: 600;
+}
+.description{
+   color: #000000;
+}
+.reviews{
+   color: #555555;
+}
+.descri{
+   padding: 50px;
+   width: 150vh;
+   border: 1px solid #d0d0d0;
+   display: flex;
+   flex-direction: column;
+   gap: 20px;
+}
+@media (max-width:1280px) {
+   .desc{
+      margin: 80px 50px;
+   }
+   .descri{
+      width: 90vh;
+   }
+   .descri p{
+      font-size: 16px;
+   }
+}
+@media (max-width:1080px) {
+   .desc{
+      margin: 80px 50px;
+   }
+   .descri{
+      width: 80vh;
+   }
+   .descri p{
+      font-size: 15px;
+   }
+}
+
+@media (max-width:800px) {
+   .descri{
+      width: 70vh;
+   }
+   .descri p{
+      font-size: 14px;
+   }
+}
+@media (max-width:500px) {
+   .desc{
+      margin:60px 10px;
+   }
+   .descri{
+      width: 40vh;
+   }
+   .descri p{
+      font-size: 14px;
+   }
+}

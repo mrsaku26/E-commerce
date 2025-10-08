@@ -1,0 +1,162 @@
+.hero{
+   height: 100vh;
+   background: linear-gradient(180deg,#fde1ff,#e1ffea22 60%);
+   display: flex;
+}
+.hero-left{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   padding-left: 180px;
+   line-height: 1.1;
+}
+.hero-left h2{
+   font-size: 26px;
+   color: #090909;
+   font-weight: 600;
+   margin-bottom: 25px;
+}
+.hero-im{
+   display: flex;
+   align-items: center;
+   gap: 30px;
+}
+.hero-im p{
+   font-weight: 600;
+   font-size: 100px;
+   color: #171717;
+}
+.hero-im img{
+   width: 100px;
+   height: 100px;
+}
+.hero-left{
+   font-weight: 600;
+   font-size: 100px;
+   color: #171717;
+   flex: 1;
+}
+.hero-btn{
+   gap: 10px;
+   display: flex;
+   align-items: center;
+   width: 310px;
+   height: 70px;
+  justify-content: center;
+   background: #FF4141;
+   border-radius: 75px;
+   color: white;
+   margin-top: 4vh;
+}
+.hero-btn button{
+   border: 0;
+   outline: none;
+   font-size: 22px;
+   color: white;
+   background: #FF4141;
+}
+.hero-btn img{
+   width: 24px;
+   height: 14px;
+}
+.hero-right{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex: 1;
+}
+.hero-right img{
+   width: 614px;
+   height: 842px;
+}
+@media (max-width:1280px) {
+   .hero-left{
+      padding-left: 100px;
+   }
+   .hero-left h2{
+      font-size: 22px;
+   }
+   .hero-left p{
+      font-size: 60px;
+   }
+   .hero-im p{
+      font-size: 60px;
+   }
+   .hero-right img{
+      width: 500px;
+      height: 690px;
+   }
+   .hero-im img{
+      width: 80px;
+      height: 80px;
+   }
+   .hero-btn{
+      width: 250px;
+      height: 60px;
+   }
+   .hero-btn button{
+       font-size: 18px;
+   }
+}
+@media (max-width:1020px) {
+   .hero-left h2{
+      font-size: 20px;
+   }
+   .hero-left p{
+      font-size: 50px;
+   }
+   .hero-im p{
+      font-size: 50px;
+   }
+   .hero-right img{
+      width: 400px;
+      height: 550px;
+   }
+    .hero-im img{
+      width: 65px;
+      height: 65px;
+   }
+}
+@media (max-width:820px) {
+    .hero-left h2{
+      font-size: 16px;
+   }
+   .hero-left p{
+      font-size: 40px;
+   }
+   .hero-im p{
+      font-size: 40px;
+   }
+   .hero-right img{
+      width: 300px;
+      height: 420px;
+   }
+    .hero-im img{
+      width: 65px;
+      height: 65px;
+   }
+     .hero-btn{
+      width: 175px;
+      height: 40px;
+   }
+   .hero-btn button{
+       font-size: 14px;
+   }
+}
+@media (max-width:500px) {
+   .hero-right{
+      display: none;
+   }
+   .hero-left{
+      padding-right: 500px;
+   }
+     .hero-left h2{
+      font-size: 18px;
+   }
+   .hero-left p{
+      font-size: 50px;
+   }
+   .hero-im p{
+      font-size: 50px;
+   }
+}

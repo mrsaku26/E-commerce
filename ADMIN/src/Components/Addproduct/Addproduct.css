@@ -1,0 +1,65 @@
+.addproduct{
+   box-sizing: border-box;
+   width: 800px;
+   background: white;
+   margin: 20px 50px;
+   padding: 20px 50px;
+}
+.product-name p{
+   font-size: 16px;
+   color: #7A7A7A;
+   margin-bottom: 10px;
+}
+.product-name input{
+   width: 680px;
+   height: 50px;
+   border: 1px solid #c3c3c3;
+   color: #7A7A7A;
+   padding: 2px 13px;
+   outline: none;
+}
+.product-price{
+   margin: 18px 0px;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+}
+.product-prices input{
+   width: 300px;
+   height: 50px;
+    border: 1px solid #c3c3c3;
+   color: #7A7A7A;
+   padding-left: 10px;
+   outline: none;
+}
+.product-price p{
+   font-size: 16px;
+   color: #7A7A7A;
+   margin-bottom: 10px;
+}
+.product-category p{
+   margin: 15px 0;
+   font-size: 16px;
+   color: #7A7A7A;
+}
+.product-category select{
+   height: 50px;
+   color: #7A7A7A;
+   text-align: center;
+   margin-bottom: 12px;
+}
+.product-btn button{
+   margin-top: 15px;
+   width: 160px;
+   height: 50px;
+   color: white;
+   background-color: #6079FF;
+   outline: none;
+   font-size: 16px;
+   border: none;
+   border-radius: 10px;
+}
+.product-input img{
+   width: 100px;
+   height: 100px;
+}

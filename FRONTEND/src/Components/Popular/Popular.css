@@ -56,8 +56,13 @@
    }
 }
 @media (max-width:500px) {
+   .popular{
+      margin-left: 78vh;
+      margin-top: -5vh;
+      margin-top: 10vh;
+   }
    .popular-title h1{
-      font-size: 30px;
+      font-size: 30px
    }
    .popular-title hr{
       width: 165px;
@@ -66,5 +71,9 @@
    .popular-container{
       display: grid;
       grid-template-columns: repeat(2,1fr);
+   }
+   .popular-container{
+      display: grid;
+      grid-template-columns: repeat(3,1fr);
    }
 }

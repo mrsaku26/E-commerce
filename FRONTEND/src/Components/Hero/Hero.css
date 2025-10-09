@@ -144,19 +144,27 @@
    }
 }
 @media (max-width:500px) {
+   .hero{
+      width: 163vh;
+   }
    .hero-right{
-      display: none;
+      display: block;
    }
    .hero-left{
+      margin-top: -20vh;
       padding-right: 500px;
    }
      .hero-left h2{
-      font-size: 18px;
+      font-size: 25px;
    }
    .hero-left p{
       font-size: 50px;
    }
    .hero-im p{
       font-size: 50px;
+   }
+   .hero-right{
+      margin-left: -50vh;
+      margin-top: 10vh;
    }
 }

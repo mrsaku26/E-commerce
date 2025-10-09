@@ -64,13 +64,13 @@
 }
 @media (max-width:500px) {
    .item img{
-      width: 160px;
+      width: 250px;
    }
    .item{
-      width: 160px;
-      height: 300px;
+      width: 250px;
+      height: 400px;
    }
    .item p{
-      font-size: 12px;
+      font-size: 25px;
    }
 }

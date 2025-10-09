@@ -125,23 +125,32 @@
    }
 }
 @media (max-width:500px) {
+   .offer{
+      width: 163vh;
+      height: 80vh;
+   }
+   .offer-left{
+      margin-top: 20vh;
+      padding-left: 20vh;
+   }
    .offer-left h1{
-      font-size: 16px;
+      font-size: 40px;
    }
    .offer-left p{
-      font-size: 10px;
+      font-size: 25px;
    }
    .offer-btn{
-      width: 120px;
-      height: 25px;
+      width: 200px;
+      height: 60px;
       margin-left: -1vh;
    }
    .offer-btn button{
-      font-size: 12px;
+      font-size: 25px;
    }
    .offer-right img{
-      width: 120px;
-      height: 175px;
+      margin-top: 5vh;
+      width: 180px;
+      height: 220px;
    }
    .offer-right img{
       margin-left: -70vh;

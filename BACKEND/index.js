@@ -9,6 +9,7 @@ const cors=require('cors')
 const { type } = require('os')
 const { use } = require('react')
 const { error } = require('console')
+require('dotenv').config();
 
 app.use(express.json())
 app.use(cors())
@@ -285,9 +286,8 @@ app.get('/', (req, res) => {
 })
 
 if (process.env.NODE_ENV !== 'production') {
-  const port = process.env.PORT || 3000;
   app.listen(port, () => {
-    console.log(`Server running locally on port ${port}`);
+    console.log(`Example app listening on port ${port}`);
   });
 } else {
   module.exports = app;

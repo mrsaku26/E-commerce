@@ -1,76 +1,76 @@
-.productdisplay{
+.productdisplays{
    display: flex;
    margin: 60px 170px;
    justify-content: space-between;
    gap: 70px;
 }
-.productdisplay-left{
+.productdisplays-left{
    display: flex;
 }
-.left-samll{
+.lefts-samll{
    display: flex;
    flex-direction: column;
    gap: 20px;
 }
-.left-samll img{
+.lefts-samll img{
    width: 135px;
    height: 163px;
 }
-.left-big{
+.lefts-big{
    margin-left: 40px;
 }
-.left-big img{
+.lefts-big img{
    width: 586px;
    height: 700;
 }
-.productdisplay-right{
+.productdisplays-right{
    display: flex;
    flex-direction: column;
 }
-.productdisplay-right h1{
+.productdisplays-right h1{
    font-size: 40px;
    color: #3d3d3d;
 }
-.right-star{
+.rights-star{
    display: flex;
    align-items: center;
    gap: 6px;
    margin: 30px 0;
 }
-.right-price{
+.righs-price{
    display: flex;
    font-size: 24px;
    gap: 30px;
 }
-.right-price .old{
+.rights-price .old{
    color: #818181;
    text-decoration: line-through;
    font-weight: 600;
 }
-.right-price .new{
+.rights-price .new{
    color: red;
    font-weight: 600;
 }
-.right-about{
+.rights-about{
    margin: 30px 0;
 }
-.right-size h1{
+.rights-size h1{
    font-size: 23px;
    color: #656565;
 }
-.right-size div{
+.righst-size div{
    margin: 20px 0;
    display: flex;
    gap: 40px;
 }
-.right-size button{
+.rights-size button{
    background: #FBFBFB;
    border: none;
    outline: none;
    font-size: 18px;
    padding: 18px 24px;
 }
-.right-cart{
+.rights-cart{
    width: 200px;
    height: 64px;
    background: red;
@@ -78,7 +78,7 @@
    align-items: center;
    justify-content: center;
 }
-.right-cart button{
+.right-carts button{
    background-color: red;
    outline: none;
    border: none;
@@ -86,19 +86,19 @@
    font-size: 16px;
    font-weight: 700;
 }
-.rigt-category{
+.rights-category{
    display: flex;
    flex-direction: column;
 }
  
-.right-category{
+.rights-category{
    margin-top: 40px;
 }
-.right-category span{
+.rights-category span{
    color: #000000;
    font-weight: 600;
 }
-.rightct{
+.rightcts{
    margin: 15px;
 }
 @media (max-width:1280px) {

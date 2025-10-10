@@ -25,7 +25,7 @@ const Context = (props) => {
 
    useEffect(()=>{
       const product=async()=>{
-         const datas= await fetch('http://localhost:3000/allproduct')
+         const datas= await fetch('https://e-commerce-flip.vercel.app/allproduct')
       const res= await datas.json()
       setallproduct(res)
 
@@ -37,7 +37,7 @@ const Context = (props) => {
    // Show all cartDatas
 
    const allcartdata=async()=>{
-      const data=await fetch('http://localhost:3000/getcartdata',{
+      const data=await fetch('https://e-commerce-flip.vercel.app/getcartdata',{
          method:'POST',
          headers:{
             'user-token':`${localStorage.getItem('user-token')}`,
@@ -55,7 +55,7 @@ const Context = (props) => {
    const AddtoCart=async(itemid)=>{
       setCartNo((prev)=>({...prev,[itemid]:prev[itemid]+1}))
       
-      const data=await fetch('http://localhost:3000/addtocart',{
+      const data=await fetch('https://e-commerce-flip.vercel.app/addtocart',{
          method:'POST',
          headers:{
             'user-token':`${localStorage.getItem('user-token')}`,
@@ -71,7 +71,7 @@ const Context = (props) => {
       const RemovetoCart=async(itemid)=>{
       setCartNo((prev)=>({...prev,[itemid]:prev[itemid]-1}))
 
-       const data=await fetch('http://localhost:3000/removetocart',{
+       const data=await fetch('https://e-commerce-flip.vercel.app/removetocart',{
          method:'POST',
          headers:{
             'user-token':`${localStorage.getItem('user-token')}`,

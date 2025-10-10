@@ -7,7 +7,7 @@ const Popular = () => {
   const[popular,setPopular]=useState([])
 
   const addingpopular=async()=>{
-    const data=await fetch('http://localhost:3000/popularinwomen')
+    const data=await fetch('https://e-commerce-flip.vercel.app/popularinwomen')
     let res=await data.json()
     setPopular(res)
   }

@@ -30,7 +30,7 @@ const Addproduct = () => {
       let formData =new FormData;
       formData.append('product',image)
 
-      let data=await fetch('http://localhost:3000/upload',{
+      let data=await fetch('https://e-commerce-flip.vercel.app/upload',{
         method:'POST',
         body:formData
       })
@@ -42,7 +42,7 @@ const Addproduct = () => {
         console.log(product)
       }
 
-      let dats=await fetch('http://localhost:3000/addproduct',{
+      let dats=await fetch('https://e-commerce-flip.vercel.app/addproduct',{
         method:'POST',
         headers:{
           'Content-type':'application/json'

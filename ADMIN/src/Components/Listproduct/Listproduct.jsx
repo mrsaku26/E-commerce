@@ -7,7 +7,7 @@ const Listproduct = () => {
   const[list,setList]=useState([])
 
   const products=async()=>{
-    let data=await fetch('http://localhost:3000/allproduct')
+    let data=await fetch('https://e-commerce-flip.vercel.app/allproduct')
     let res=await data.json()
     setList(res)
   }
@@ -17,7 +17,7 @@ const Listproduct = () => {
   },[])
 
   const remove=async(id)=>{
-    let data=await fetch('http://localhost:3000/deleteproduct',{
+    let data=await fetch('https://e-commerce-flip.vercel.app/deleteproduct',{
       method:'POST',
       headers:{
         'Content-type':'application/json'

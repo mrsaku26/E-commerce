@@ -7,7 +7,7 @@ const Newcollections = () => {
   const[newcollections,setNewcollection]=useState([])
 
   const collecions=async()=>{
-    let data=await fetch('http://localhost:3000/newcollection')
+    let data=await fetch('https://e-commerce-flip.vercel.app/newcollection')
     let res=await data.json()
     setNewcollection(res)
   }

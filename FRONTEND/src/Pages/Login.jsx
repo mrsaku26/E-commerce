@@ -20,7 +20,7 @@ const Login = () => {
        try {
        let responsedata;
 
-    let data=await fetch('http://localhost:3000/login',{
+    let data=await fetch('https://e-commerce-flip.vercel.app/login',{
       method:'POST',
       headers:{
         'Content-type':'application/json'
@@ -54,7 +54,7 @@ const Login = () => {
    try {
      let responsedata;
 
-    let data=await fetch('http://localhost:3000/signup',{
+    let data=await fetch('https://e-commerce-flip.vercel.app/signup',{
       method:'POST',
       headers:{
         'Content-type':'application/json'

@@ -9,7 +9,7 @@ const Breadcrum = (props) => {
       HOME <img src={arrow_icon} alt="" />
       SHOP <img src={arrow_icon} alt="" />
       <p>{product.category}</p> <img src={arrow_icon} alt="" />
-      <p>{product.name}</p>
+      <p className='products-name'>{product.name}</p>
      
     </div>
   )

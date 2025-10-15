@@ -219,7 +219,10 @@
 @media (max-width:500px) {
    .productdisplay{
       display: flex;
-      flex-direction: column;
+      flex-direction: row;
+      justify-content: space-between;
+      width: 100%;
+      gap: 20vh;
    }
    .productdisplay-left{
       display: flex;
@@ -233,8 +236,39 @@
       display: flex;
       flex-direction: column;
    }
+   .left-samll img{
+      width: 18vh;
+      height: 18vh;
+   }
+   .left-big img{
+      width: 50vh;
+      height: 80vh;
+   }
+   .productdisplay h1{
+      font-size: 40px;
+      min-width: 70vh;
+   }
+   .right-star img{
+      width: 4vh;
+      margin-bottom: 3vh;
+      margin-top: 2vh;
+   }
+   .productdisplay-right p{
+      font-size: 25px;
+   }
+   .right-size div button{
+      font-size: 25px;
+   }
+   .right-cart{
+      height: 8vh;
+      width: 30vh;
+      margin-bottom: 1vh;
+      margin-top: 1vh;
+   }
+   .right-cart button{
+      font-size: 25px;
+   }
 }
-
 
 .desc{
    margin: 90px 170px;
@@ -311,7 +345,24 @@
    .descri p{
       font-size: 14px;
    }
+   .descc button{
+      font-size: 25px;
+   }
+   .descc button{
+      height: 10vh;
+      width: 50vh;
+   }
+   .descri{
+      min-width: 150vh;
+   }
+   .descri p{
+      font-size: 22px;
+   }
+   .descri span{
+      font-size: 22px;
+   }
 }
+
 
 .breadcrum{
    display: flex;
@@ -326,5 +377,14 @@
    .breadcrum{
       margin: 40px 30px;
       font-size: 14px;
+   }
+}
+@media (max-width:500px) {
+   .breadcrum{
+      margin: 40px 30px;
+      font-size: 25px;
+   }
+   .products-name{
+      min-width: 80vh;
    }
 }

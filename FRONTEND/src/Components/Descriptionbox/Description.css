@@ -73,4 +73,20 @@
    .descri p{
       font-size: 14px;
    }
+   .descc button{
+      font-size: 25px;
+   }
+   .descc button{
+      height: 10vh;
+      width: 50vh;
+   }
+   .descri{
+      min-width: 150vh;
+   }
+   .descri p{
+      font-size: 22px;
+   }
+   .descri span{
+      font-size: 22px;
+   }
 }

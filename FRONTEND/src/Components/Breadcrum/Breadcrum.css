@@ -13,3 +13,12 @@
       font-size: 14px;
    }
 }
+@media (max-width:500px) {
+   .breadcrum{
+      margin: 40px 30px;
+      font-size: 25px;
+   }
+   .products-name{
+      min-width: 80vh;
+   }
+}

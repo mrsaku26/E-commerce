@@ -211,7 +211,10 @@
 @media (max-width:500px) {
    .productdisplay{
       display: flex;
-      flex-direction: column;
+      flex-direction: row;
+      justify-content: space-between;
+      width: 100%;
+      gap: 20vh;
    }
    .productdisplay-left{
       display: flex;
@@ -224,5 +227,37 @@
    .left-samll{
       display: flex;
       flex-direction: column;
+   }
+   .left-samll img{
+      width: 18vh;
+      height: 18vh;
+   }
+   .left-big img{
+      width: 50vh;
+      height: 80vh;
+   }
+   .productdisplay h1{
+      font-size: 40px;
+      min-width: 70vh;
+   }
+   .right-star img{
+      width: 4vh;
+      margin-bottom: 3vh;
+      margin-top: 2vh;
+   }
+   .productdisplay-right p{
+      font-size: 25px;
+   }
+   .right-size div button{
+      font-size: 25px;
+   }
+   .right-cart{
+      height: 8vh;
+      width: 30vh;
+      margin-bottom: 1vh;
+      margin-top: 1vh;
+   }
+   .right-cart button{
+      font-size: 25px;
    }
 }

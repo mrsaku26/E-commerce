@@ -30,7 +30,7 @@ const Cart = () => {
             <p>${e.new_price*cartNo[e.id]}</p>
             <img src={cross_icon} alt="" onClick={()=>{RemovetoCart(e.id)}} className='remove'/>
           </div>
-          <hr />
+          <hr className='hr'/>
               </div>
               
           }else{
@@ -41,13 +41,13 @@ const Cart = () => {
       <div className="cart-main">
         <div className="main-left">
           <h1>Cart Totals</h1>
-         <div> <p>Subtotal</p> <p>${getTotalCartAmount()}</p></div>
+         <div> <p>Subtotal</p> <p className='gaps'>${getTotalCartAmount()}</p></div>
           <hr />
-          <div><p>Shipping Fee</p> <p>Free</p></div>
+          <div><p>Shipping Fee</p> <p className='gaps'>Free</p></div>
           <hr />
          
           <div><h2>Total</h2>
-          <h2>{getTotalCartAmount()}</h2></div>
+          <h2 className='gapss'> {getTotalCartAmount()}</h2></div>
           <div className="left-btn">
             <button>PROCEED TO CHECKOUT</button>
           </div>

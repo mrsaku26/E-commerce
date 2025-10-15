@@ -93,7 +93,7 @@
 @media (max-width:500px) {
    .login{
       width: 162vh;
-      height: 200vh;
+      height: 150vh;
    }
    .login-cont h1{
       font-size: 50px;

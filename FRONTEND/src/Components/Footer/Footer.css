@@ -96,7 +96,7 @@
 }
 @media (max-width:500px) {
    .footer{
-      margin-left: 70vh;
+      margin-left: 79vh;
    }
    .footer-img img{
       height: 15vh;
@@ -131,4 +131,4 @@
       margin-left: 20vh;
       font-size: 30px;
       min-width: 100vh;
-   }
+   }}

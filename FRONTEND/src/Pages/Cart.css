@@ -129,3 +129,71 @@
       margin: 100px 50px;
    }
 }
+@media (max-width:1080px) {
+   .cart {
+      margin: 100px 50px;
+   }
+   .cart-top{
+     grid-template-columns: 0.5fr 2fr 1fr 1fr 1fr 1fr;
+     gap: 12vh;
+   }
+   .cart-top p{
+      font-size: 25px;
+   }
+   .cart hr{
+      width: 140vh;
+   }
+   .cart-format{
+   }
+   .images{
+      width: 15vh;
+      height: 15vh;
+   }
+   .remove{
+      margin-left: 6vh;
+   }
+   .main-left h1{
+      font-size: 50px;
+   }
+   .main-left p{
+      font-size: 28px;
+   }
+   .cartitems-quantity{
+      font-size: 20px;
+   }
+   .hr{
+      height: 10vh;
+   }
+   .gaps{
+      margin-left: 100vh;
+   }
+   .gapss{
+      margin-left: 103vh;
+   }
+   .main-left h2{
+      font-size: 35px;
+   }
+   .left-btn{
+      font-size: 30px;
+      height: 10vh;
+      width: 50vh;
+   }
+   .left-btn button{
+      font-size: 25px;
+   }
+   .main-right p{
+      font-size: 26px;
+      min-width: 100vh;
+   }
+   .right-input{
+      width: 100vh;
+      height: 10vh;
+      font-size: 25px;
+   }
+   .right-input input{
+      font-size: 25px;
+   }
+   .right-input button{
+      font-size: 25px;
+   }
+}

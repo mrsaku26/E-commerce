@@ -88,8 +88,9 @@
    .shopcategory-container{
       display: grid;
       grid-template-columns: repeat(2,1fr);
-      margin-left: 30vh;
+      margin-left: 20vh;
       gap: 14vh;
+      grid-column-gap: 25vh;
    }
    .shopcategory-sort div{
       font-size: 25px;

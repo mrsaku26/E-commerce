@@ -82,11 +82,32 @@
 }
 @media (max-width:600px) {
    .shopcategory-banner img{
-      width: 470px;
-      height: 100px;
+      width: 1000px;
+      height: 200px;
    }
    .shopcategory-container{
       display: grid;
       grid-template-columns: repeat(2,1fr);
+      margin-left: 20vh;
+      gap: 10vh;
+   }
+   .shopcategory-sort div{
+      font-size: 25px;
+      min-width: 70vh;
+   }
+   .shopcategory-sort span{
+      font-size: 25px;
+   }
+   .shopcategory-img{
+      display: none;
+      width: -100vh;
+   }
+   .shopcategory-loadmore{
+      height: 100px;
+      width: 300px;
+      margin-left: 57vh;
+   }
+   .shopcategory-loadmore p{
+      font-size: 30px;
    }
 }

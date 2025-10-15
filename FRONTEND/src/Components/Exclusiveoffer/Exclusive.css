@@ -159,10 +159,12 @@
 }
 @media (max-width:500px) {
    .exclusive{
+      margin-top: 180vh;
       width: 163vh;
+      margin-bottom: 40vh;
    }
    .exclusive h1{
-      margin-top: 5vh;
+      margin-top: 50vh;
       font-size: 40px;
    }
    .exclusive p{

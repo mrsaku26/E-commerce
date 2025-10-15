@@ -62,7 +62,8 @@
       padding-bottom: 60vh;
    }
    .newcollection-title h1{
-      font-size: 30px;
+      margin-top: 80vh;
+      font-size: 35px;
    }
    .newcollection-title hr{
       width: 165px;
@@ -70,7 +71,7 @@
    }
    .newcollection-container{
       display: grid;
-      grid-template-columns: repeat(3,1fr);
+      grid-template-columns: repeat(2,1fr);
       gap: 10vh;
    }
 }

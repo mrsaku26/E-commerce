@@ -82,14 +82,14 @@
 }
 @media (max-width:600px) {
    .shopcategory-banner img{
-      width: 1000px;
-      height: 200px;
+      width: 1200px;
+      height: 220px;
    }
    .shopcategory-container{
       display: grid;
       grid-template-columns: repeat(2,1fr);
-      margin-left: 20vh;
-      gap: 10vh;
+      margin-left: 30vh;
+      gap: 14vh;
    }
    .shopcategory-sort div{
       font-size: 25px;

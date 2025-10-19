@@ -25,3 +25,10 @@
    height: 80px;
    width: 80px;
 }
+@media (max-width:700px) {
+   .list-details{
+      display: grid;
+      grid-template-columns: 1fr 3fr 1fr 1fr 1fr 1fr;
+      width: 107vh;
+   }
+}

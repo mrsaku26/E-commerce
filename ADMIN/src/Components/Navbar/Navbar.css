@@ -18,3 +18,12 @@
    width: 75px;
    background: white;
 }
+@media (max-width:700px) {
+   .navbar{
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      width: 107vh;
+      box-shadow: 0 1px 5px -2px black;
+   }
+}
